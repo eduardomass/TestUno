@@ -1,0 +1,12 @@
+﻿@model Escuela
+
+esta es la vista de escuelas!
+<hr />
+<ul>
+    @{
+        foreach (var item in Model.ListaAlumnos)
+        {
+        <li>@item.Nombre</li>
+        }
+    }
+</ul>
