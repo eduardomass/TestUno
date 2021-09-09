@@ -9,5 +9,7 @@ namespace TestUno.Models
     {
         public List<Alumno> ListaAlumnos { get; set; }
         public List<Profesor> ListaProfesores { get; set; }
+
+        //Comentario para cambio
     }
 }
